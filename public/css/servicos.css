@@ -1,0 +1,57 @@
+*{
+          box-sizing: border-box;
+}
+body{
+          background-color: #111;
+          margin: 0;
+}
+
+.movie-row{
+          margin-bottom: 30px;
+}
+.movie-row h2{
+          margin: 0px 0px 0px 30px;
+}
+.morow-listarea{
+      overflow-x: hidden;
+      padding-left: 30px;
+
+}
+.movierow-item{
+          display: inline-block;
+          widows: 150px;
+          cursor: pointer;
+}
+.movierow-item img{
+          width: 100%;
+          transform: scale(0.9);
+          transition: all ease 0.2s;
+}
+.movierow-item img:hover{
+          transform: scale(1); 
+}
+.movierow-left, .movierow-right{
+position: absolute;
+width: 40px;
+height: 225px;
+background-color: rgba(43, 45, 46, 0.13);
+display: flex;
+z-index: 99;
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+ cursor: pointer;
+ opacity: 0;
+ transition: all ease 0.2s;
+}
+.movierow-left{
+          left: 0;
+}
+.movierow-right{
+          right: 0;
+}
+.movierow-listeare:hover{
+          opacity: 1;
+}
+
+

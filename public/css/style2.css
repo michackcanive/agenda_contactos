@@ -1,0 +1,87 @@
+/**
+* Template Name: SoftLand - v2.2.1
+* Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/* Pricing */
+.pricing {
+  padding: 50px;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  padding-bottom: 12rem !important;
+  position: relative;
+  border-radius: 4px;
+  color: #000000;
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pricing h3 {
+  color: #2d71a1;
+}
+
+.pricing .price-cta {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+.pricing .price-cta .price {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.pricing .popularity {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .2rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.pricing ul {
+  margin-bottom: 50px;
+}
+
+.pricing ul li {
+  margin-bottom: 10px;
+}
+
+.pricing .btn-white {
+  background: #fff;
+  border: 2px solid #f1f1f1;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing .btn-white:hover {
+  color: #2d71a1;
+}
+
+.pricing.popular {
+  background: #fff;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  color: #000000;
+  background: linear-gradient(-45deg, #1391a5, #274685);
+  color: #fff;
+  box-shadow: none;
+}
+
+.pricing.popular .popularity {
+  color: #b3b3b3;
+}
+
+.pricing.popular h3 {
+  color: #fff;
+  background: none;
+}
+
+.pricing.popular .btn-white {
+  border: 2px solid #2d71a1;
+}
